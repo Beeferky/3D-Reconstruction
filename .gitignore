@@ -1,0 +1,42 @@
+# Datasets and outputs (large, scene-specific) — users generate their own
+data/
+outputs/
+renders/
+logs/
+
+# Reconstruction binaries
+*.ply
+*.h5
+*.db
+*.bin
+*.npy
+*.tfevents.*
+
+# Vendored hloc (install via pip instead, see README)
+Hierarchical-Localization/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+
+# Reports / latex
+REPORT*
+*.aux
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+
+# Editor / OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Claude / dev memory
+MEMORY.md
+.claude/

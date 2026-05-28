@@ -1,0 +1,19 @@
+name: 3dreconstruction
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+      - numpy
+      - scipy
+      - opencv-python
+      - pillow
+      - pillow-heif
+      - matplotlib
+      - tqdm
+      - h5py
+      - torch
+      - torchvision
+      - pycolmap
+      - "git+https://github.com/cvg/Hierarchical-Localization.git"
